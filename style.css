@@ -1,0 +1,128 @@
+body {
+    min-width: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Arial", sans-serif;
+    color: #404040;
+    background-color: #ffffff;
+  }
+
+  .container {
+    margin: 0 20px;
+  }
+
+  .page-header {
+    min-height: 75px;
+    padding-top: 25px;
+    background-color: #404040;
+    background-position: center;
+    background-size: cover;
+  }
+
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+
+  .page-header li{
+    margin-top: 12px;
+    margin-right: 50px;
+    margin-left: 20px;
+    padding: 0;
+    text-transform: uppercase;
+  }
+
+  .main-nav li:last-child {
+    margin-right: 0;
+  }
+
+  .main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .main-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .main-nav a:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .btn {
+    width: 146px;
+    padding: 15px 30px;
+    font: inherit;
+    vertical-align: top;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    word-wrap: break-word;
+    border: 2px solid #960032;
+    border-radius: 4px;
+    background-color: #300010;
+  }
+
+  .btn-sign-in:hover {
+    border: 2px solid #6b0124;
+    background-color: rgba(53, 0, 13, 0.5);
+  }
+
+  .btn-sign-in:active {
+      color:rgba(255, 255, 255, 0.3);
+   }
+
+  .trainings .container {
+    position: relative;
+  }
+
+  .trainings h1{
+    text-align: center;
+  }
+
+  .trainings:first-child {
+    margin-top: 40px;
+  }
+
+  .exercise-list {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+
+
+  .exercise-list th {
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  
+  .exercise-list td {
+    border: 1px solid #d8d8d8;
+  }
+  
+  .exercise-list th,
+  .exercise-list td {
+    padding: 10px 17px;
+  }
+  
+  .exercise-list .exercise-number {
+    width: 15px;
+    text-align: center;
+  }
+  
+  .exercise-list .exercise-name {
+    width: 422px;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  .exercise-list .exercise-weight-amount {
+    width: 306px;
+  }
